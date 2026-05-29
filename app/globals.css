@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root { --green: #00FF87; }
+
+.font-bebas { font-family: 'Bebas Neue', sans-serif; }
+.font-mono-dm { font-family: 'DM Mono', monospace; }
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.ticker-animate { animation: ticker 28s linear infinite; }
